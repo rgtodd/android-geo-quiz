@@ -17,6 +17,7 @@ class QuizViewModel : ViewModel() {
     )
 
     var currentIndex = 0
+    var isCheater = false
 
     init {
         Log.d(TAG, "ViewModel instance created.")
